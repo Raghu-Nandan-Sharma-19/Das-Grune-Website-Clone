@@ -119,7 +119,7 @@ nav a{
     position: absolute;
     margin-top: 50px;
 }
-/* Wrapper for the rotating border */
+
 #section2 #arrow {
     background-color: black;
     height: 200px;
@@ -138,12 +138,9 @@ nav a{
     border-style: dashed;
 }
 
-
-
-/* Keep the icon centered and stationary */
 #section2 #arrow i {
     color: #D5FF3F;
     font-size: 50px;
-    position: absolute; /* Ensures it stays centered */
+    position: absolute;
 }
 
