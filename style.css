@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: #D5FF3F;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 45px;
+}
+nav #left h3{
+    font-family: sans-serif;
+    font-weight: 750;
+}
+nav #right{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin-right: 80px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    font-weight: 900;
+}
+#section1{
+    padding-left: 60px;
+    padding-top: 60px;
+}
+#upper-content{
+    display: flex;
+    justify-content: space-between;
+}
+#upper-content #image{
+    height: 80px;
+    width: 300px;
+    background-color: black;
+    margin-right: 200px;
+    border-radius: 50px;
+    margin-top: 45px;
+    background-image: url(./64e743e6af6adbae4464fce6_Snimak\ ekrana\ 2023-08-23\ 222754.jpg);
+}
+#upper-content h1{
+    font-size: 170px;
+}
+#upper-content #image #play{
+    background-color: black;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-top: 2%;
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#upper-content #image #play i{
+    color: #D5FF3F;
+    font-size: 50px;
+    margin-left: 5px;
+}
+#upper-content #image #play i:hover{
+    transform: translate(7%);
+}
+#lower-content{
+    display: flex;
+    justify-content: space-between;
+}
+#lower-content h1{
+    font-size: 170px;
+    margin-bottom: 50px
+}
+#lower-content p{
+    margin-top: 50px;
+    font-size: 25px;
+    margin-left: 70px;
+    margin-right: 80px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+#partition{
+    display: flex;
+    gap: 40px;
+    margin-left: 70px;
+    padding-bottom: 50px;
+}
+#partition button{
+    background: transparent;
+    display: flex;
+    width: 220px;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+#partition button h3{
+    margin-top: 5px;
+}
+#parititon button img:hover{
+    transform: translate(30%);
+}
+#partition #right-partition #line{
+    margin-top: 15px;
+}
+#partition #right-partition #rings{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+#section2{
+    height: 500px;
+    padding-left: 50px;
+    position: absolute;
+    margin-top: 50px;
+}
+/* Wrapper for the rotating border */
+#section2 #arrow {
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: -50px;
+    left: 0;
+    z-index: 2;
+    margin-left: 850px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid #D5FF3F;
+    border-style: dashed;
+}
+
+
+
+/* Keep the icon centered and stationary */
+#section2 #arrow i {
+    color: #D5FF3F;
+    font-size: 50px;
+    position: absolute; /* Ensures it stays centered */
+}
+
